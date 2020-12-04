@@ -6,7 +6,7 @@ Below you will find a guide for environment setup and packages needed for instal
 
 SETUP IntelliJ
 
-**NOTE** THIS IS NOT COMPATIBLE WITH INTELLIJ COMMUNITY EDITON
+**NOTE:** THIS IS NOT COMPATIBLE WITH INTELLIJ COMMUNITY EDITON
 
 In the IntelliJ enviornment install these packages
 
