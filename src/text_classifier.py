@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 def train_text():
     warnings.filterwarnings('ignore')
 
-    df = pd.read_csv('EXAMPLE_DATA.tsv', delimiter='\t', header=None)
+    df = pd.read_csv('/Users/DeVante/IdeaProjects/Fake_News_Classifier/test/EXAMPLE_DATA.tsv', delimiter='\t', header=None)
     batch_1 = df[:2000]
     batch_1[1].value_counts()
     print("created batch...")
@@ -59,7 +59,21 @@ def train_text():
     lr_clf.fit(train_features, train_labels)
 
     print("Accuracy equals: ", lr_clf.score(test_features, test_labels))
-    return 1
+
+    x = ""
+    while x != "stop":
+        x = input("press enter to continue:")
+        print("test features: ", test_features)
+        print("test labels: ", test_labels)
+        print("train features: ", test_features)
+        print("train labels: ", test_labels)
+        print("lr_clf: ", lr_clf)
+        print(lr_clf.predict([["the books sold at the store were a really good read. I suggest that you look inside one day and see what they have"],
+                              ["The sky is blue"],
+                              ["The water is flowing fast but the lava is thundering down on the surface of avatar the last airbender"],
+                              ["The Playstation 5 is better than Xbox"],
+                              ["Fish have three legs and walk on water. They are known to swallow crocodiles and burn meteors"]]))
+    return lr_clf
 
 
 if __name__ == '__main__':
