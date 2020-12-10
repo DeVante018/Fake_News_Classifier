@@ -10,14 +10,14 @@ Install Anaconda
 
 install the Jupiter notebook
 
-Create a new enviornment and name it (If your using mac you may not need to do this)
+Create a new environment and name it (If you're using mac you may not need to do this)
 
-After the enviornment is finished being made, change the top header to "not installed" and search for Tensorflow
+Once the environment is done, change the top header to "not installed" and search for Tensorflow
 
 Click on it and then click apply in the lower right (do the same for the Keras package)
 
-Once these are finished installing, go back to home and open the jupiter notebook with the new enviornment ( make sure the "Application on" field is set
-to the name of new enviornment)
+Once these are finished installing, go back to home and open the jupiter notebook with the new environment ( make sure the "Application on" field is set
+to the name of new environment)
 
 Search for where the downloaded project is and open it
 
@@ -27,7 +27,7 @@ Search for where the downloaded project is and open it
 **NOTE:** THIS IS NOT COMPATIBLE WITH INTELLIJ COMMUNITY EDITON
 
 
-In the IntelliJ enviornment install these packages
+In the IntelliJ environment install these packages
 
 ------------------------------PACKAGES------------------------------
 
@@ -37,7 +37,7 @@ text classifier: pandas,torch,transformers and sklearn
 
 ------------------------------PACKAGES------------------------------
 
-Also manually install Tensorflow. Use:
+Also, manually install Tensorflow. Use:
 
 pip install --upgrade tensorflow
 
@@ -46,7 +46,7 @@ pip install --upgrade tensorflow
 
 To use, simply run the Multimodal_image_text_class.py file
 
-Import all sub-packeges that are required of the py file
+Import all sub-packages that are required of the py file
 
 Be sure to change the file paths of the code on lines 47, 48, 49. The new path should be the location of the file on your hardware.
 **NOTE** windows users should type in r before the file path for the program to find it
@@ -63,4 +63,4 @@ Our 3 classification are as follows:
 
 **Trouble Shooting**
 
-If Your having issues setting up the enviornments or libraries please reference: https://www.youtube.com/watch?v=O8yye2AHCOk
+If Your having issues setting up the environments or libraries please reference: https://www.youtube.com/watch?v=O8yye2AHCOk
