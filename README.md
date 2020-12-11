@@ -48,14 +48,8 @@ To use, simply run the Multimodal_image_text_class.py file
 
 Import all sub-packages that are required of the py file
 
-Be sure to change the file paths of the code on lines 47, 48, 49. The new path should be the location of the file on your hardware.
-
-                                              ^
-                                              |
-                                              |
-                                              |
-                                              |
-                                              V
+Be sure to change the file paths of the code in lines 47, 48, 49. The new path should be the location of the file on your hardware.
+The reqired files are locatated in the google drive below
                                               
  **Download files here: https://drive.google.com/drive/folders/1hxscceigHP0UxBmRYQBuT-QRz6bxTzwL?usp=sharing
  
